@@ -26,7 +26,7 @@ const Book = ({ img, title, author }) => {
       </h1>
       <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>
-        Button Example
+        Simple Example
       </button>
       <button type="button" onClick={() => complexHandler(author)}>
         Complex Button
